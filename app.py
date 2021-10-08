@@ -33,7 +33,7 @@ def main():
 
 st.sidebar.header('User Input Parameters')
 
-Warranty_claim = pd.read_csv("D:/Projects/Fraud - Warranty Claim/Warranty Claim.csv")
+Warranty_claim = pd.read_csv("Warranty Claim.csv")
 #Eliminating Unwanted columns
 Warranty_claim.drop(Warranty_claim.columns[[0]], axis = 1, inplace = True)
 
