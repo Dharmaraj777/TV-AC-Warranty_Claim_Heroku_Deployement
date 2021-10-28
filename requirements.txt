@@ -1,6 +1,5 @@
 streamlit
 pandas
-gunicorn==20.1.0
 numpy==1.19.3 
 scikit-learn==0.23.2 
 sklearn==0.0
