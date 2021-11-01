@@ -7,11 +7,6 @@ Created on Wed Oct  6 18:09:25 2021
 
 import pandas as pd
 import numpy as np
-from sklearn import preprocessing
-#from sklearn.model_selection import cross_val_score
-#from sklearn.metrics import classification_report
-from sklearn.preprocessing import OneHotEncoder, LabelEncoder, label_binarize
-#from sklearn.model_selection import KFold
 import warnings
 warnings.filterwarnings("ignore")
 import streamlit as st
